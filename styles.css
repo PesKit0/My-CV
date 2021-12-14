@@ -1,0 +1,253 @@
+/**{
+    padding: 0;
+    margin: 0;
+}*/
+
+body{
+    
+background-color: #e7cecec4;
+color:black;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+a{
+    color: rgb(3, 3, 3);
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline ;
+}
+
+a:active{
+    color: rgb(172, 32, 14);
+}
+
+
+
+.avatar{
+    border-radius: 100px;
+    width: 240px;
+    height: 260px;
+    box-shadow: -12px 20px 20px 0px;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width:700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.info p{
+    color: rgb(51, 48, 48);
+    margin: 9px;
+    font-style:italic ;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    /*letter-spacing: 1px;*/
+    /*word-spacing: 1px;*/
+
+}
+
+.container{
+    max-width: max-content;
+    margin:auto;
+    margin-top: 20px;
+}
+
+/*.social{
+    background: #25db34;
+    padding: 15px;
+    margin: 5px;
+
+    border: 2px solid rgb(212, 13, 13);
+    border-bottom-style: dotted ;
+    border-top-color: blue;
+    border-top-style: dotted;
+    border-top-width: 50px;
+    border-right-color: rgb(107, 80, 133);
+    border-right-width: 50px;
+    border-left-color: yellow;
+    border-left-width: 35px;
+
+
+}*/
+
+.bg-yellow{
+    border: 2px solid rgb(126, 0, 0);
+    background: rgba(255, 252, 68, 0.582);
+
+}
+
+.bg-red{
+    background: rgba(69, 197, 230, 0.644);
+
+}
+
+.bg-blue{
+    background: rgb(131, 131, 241);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.card{
+    padding: 1px 22px;
+    margin-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:90px ;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 75px;
+}
+
+.card h2{
+    margin-left: 190px;
+    margin-bottom: 10px;
+}
+
+.list{
+    padding-left: 140px;
+    padding-top: 0%; 
+
+}
+
+
+.list li{
+    color: rgb(8, 8, 66);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.table{
+    width: max-content;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+}
+
+
+.table td{
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.table td:nth-child(1){
+    color: rgb(13, 14, 12);
+}
+
+.table td:nth-child(2){
+    color: rgb(90, 90, 90);
+}
+
+/*.table tr:nth-child(odd){
+    background: rgb(148, 123, 10);
+}*/
+
+.link-list li{
+  /*  margin-bottom: 10px;
+    padding-bottom: 2px;
+    border: 4px dotted;
+    border-width: 3px;
+    border-left: solid;
+    border-left-width: 2px;
+    
+    border-color: red;*/
+    border-bottom: 1px solid rgb(250, 246, 27);
+    padding: 10px;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact h2{
+    text-align: center;
+
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: grey;
+
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(15, 15, 15);
+    padding: 14px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+   display: flex; 
+   margin-bottom: 20px;
+
+}
+
+.row > .form-group{
+    width: 50%;
+   /*    margin-right: 20px ;*/
+
+}
+
+.row > .form-group:first-child{
+    margin-right: 20px ;
+    /*margin-right: 0*/;
+}
+
+.btn{
+    background: black;
+    padding: 15px, 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*position*/
+
+/*.position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 20px;
+    height: 300px;
+
+}
+
+.box{
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    border-radius: 50%;
+    width: 51px;
+    height: 50px;
+    background-color: chocolate;
+    
+}*/
+
